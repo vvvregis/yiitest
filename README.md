@@ -59,8 +59,8 @@ vendor/                  contains dependent 3rd-party packages
 environments/            contains environment-based overrides
 ```
 
-Ключ для Bearer авторизации находится в поле verification key таблицы user
-Консольная команда для запуска парсера php yii parser/start
-пример курл запроса
-curl -i -H 'Accept: application/json' -H "Authorization: Bearer ZMpjcISnoEPu3ZQiv5sa6DVmE639Qy4S" http://test.local/currency/1
+Ключ для Bearer авторизации находится в поле verification key таблицы user<br/>
+Консольная команда для запуска парсера php yii parser/start<br/>
+пример курл запроса<br/>
+curl -i -H 'Accept: application/json' -H "Authorization: Bearer ZMpjcISnoEPu3ZQiv5sa6DVmE639Qy4S" http://site.url/currency/1
 
