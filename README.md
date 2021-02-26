@@ -58,4 +58,9 @@ frontend
 vendor/                  contains dependent 3rd-party packages
 environments/            contains environment-based overrides
 ```
-# yiitest
+
+Ключ для Bearer авторизации находится в поле verification key таблицы user
+Консольная команда для запуска парсера php yii parser/start
+пример курл запроса
+curl -i -H 'Accept: application/json' -H "Authorization: Bearer ZMpjcISnoEPu3ZQiv5sa6DVmE639Qy4S" http://test.local/currency/1
+
